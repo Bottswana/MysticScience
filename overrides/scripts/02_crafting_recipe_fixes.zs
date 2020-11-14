@@ -22,5 +22,11 @@ recipes.addShaped( < extraplanets: tools: 2 > , [
     [ < minecraft: string > , null, < minecraft: string > ],
     [ < minecraft: string > , < minecraft: string > , < minecraft: string > ]
 ]);
-
+recipes.removeShaped( < abyssalcraft: ironp > * 2, [
+    [< minecraft: iron_ingot >],
+    [< minecraft: iron_ingot >]
+]);
+recipes.addShaped( < abyssalcraft: ironp > * 3, [
+    [ < minecraft: iron_ingot > , < minecraft: iron_ingot > , < minecraft: iron_ingot > ],
+]);
 print("Done.");
