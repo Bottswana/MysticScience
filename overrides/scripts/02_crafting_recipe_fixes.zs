@@ -29,4 +29,7 @@ recipes.removeShaped( < abyssalcraft: ironp > * 2, [
 recipes.addShaped( < abyssalcraft: ironp > * 3, [
     [ < minecraft: iron_ingot > , < minecraft: iron_ingot > , < minecraft: iron_ingot > ],
 ]);
+
+// Fix NuclearCraft broken recipe
+furnace.addRecipe(<nuclearcraft:ingot:14>, <nuclearcraft:dust:14>);
 print("Done.");
